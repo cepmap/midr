@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background: antiquewhite;
     min-width: 1024px;
 }
 
+
+/* Стили верхней полосы */
 #head_line{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -52,4 +53,91 @@ body{
     color: white;
     font-size: 2em;
     padding-right: 10px;
+}
+
+/*Стили тела этого всего дерьма*/
+#body_block{
+    min-height: 200px;
+}
+#left_column{
+    float: left;
+    min-height: inherit;
+    width: 25%;
+}
+#center_column{
+    float: left;
+    min-height: inherit;
+    width: 50%;
+    background-color: aqua;
+}
+#right_column{
+    float: left;
+    min-height: inherit;
+    width: 25%;
+}
+
+
+/*----------------ЧАТ--------------*/
+.chat {
+    border:1px solid #333;
+    margin:15px;
+    width:92.5%;
+    height:70%;
+    background:#555;
+    color:#fff;
+}
+
+.chat-messages {
+    min-height:93%;
+    max-height:93%;
+    overflow:auto;
+}
+
+.chat-messages__content {
+    padding:1px;
+}
+
+.chat__message {
+    border-left:3px solid #333;
+    margin-top:2px;
+    padding:2px;
+}
+
+.chat__message_black {
+    border-color:#000;
+}
+
+.chat__message_blue {
+    border-color:blue;
+}
+
+.chat__message_green {
+    border-color:green;
+}
+
+.chat__message_red {
+    border-color:red;
+}
+
+.chat-input {
+    min-height:6%;
+}
+#message-text {
+    font-family:arial;
+    font-size:16px;
+    vertical-align:middle;
+    background:#333;
+    color:#fff;
+    border:0;
+    display:inline-block;
+    margin:1px;
+    height:30px;
+}
+
+.chat-form__input {
+    width:79%;
+}
+
+.chat-form__submit {
+    width:18%;
 }
